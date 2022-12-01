@@ -1,0 +1,25 @@
+site_name: Thai EV
+theme:
+  name: material
+  palette:
+    primary: white
+  logo: logo.png
+  favicon: favicon.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+nav:
+  - Overview: index.md
+  - Section 1:
+      - Topic 1: section_1/topic_1.md
+      - Topic 2: section_1/topic_2.md
+  - Section 2:
+      - Topic 1: section_2/topic_1.md
+      - Topic 2: section_2/topic_2.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
