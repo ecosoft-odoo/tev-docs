@@ -13,12 +13,26 @@ theme:
     - navigation.sections
 nav:
   - Overview: index.md
-  - Section 1:
+  - Master Data:
       - Topic 1: section_1/topic_1.md
       - Topic 2: section_1/topic_2.md
-  - Section 2:
-      - Topic 1: section_2/topic_1.md
-      - Topic 2: section_2/topic_2.md
+  - Sales:
+      - Overview: 2_sale/1_overview.md
+      - Sales: 2_sale/2_sale.md
+  - Purchases:
+      - Overview: 3_purchase/1_overview.md
+      - User: 3_purchase/2_user.md
+      - Purchases: 3_purchase/3_purchases.md
+  - Inventory:
+      - Overview: 4_inventory/1_overview.md
+      - Stock In: 4_inventory/2_stock-in.md
+      - Stock Out: 4_inventory/2_stock-out.md     
+  - Accounting:
+      - Overview: 5_Accounting/1_overview.md
+      - Accounting: 5_Accounting/2_Accounting.md
+  - Approval:
+      - Overview: 6_Overview/1_overview.md
+      - Approver: 6_Overview/2_approver.md
 markdown_extensions:
   - admonition
   - pymdownx.details
