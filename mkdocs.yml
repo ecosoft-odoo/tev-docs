@@ -28,7 +28,7 @@ nav:
   - Inventory:
       - Overview: 4_inventory/1_overview.md
       - Stock In: 4_inventory/2_stock-in.md
-      - Stock Out: 4_inventory/2_stock-out.md     
+      - Stock Out: 4_inventory/3_stock-out.md     
   - Accounting:
       - Overview: 5_accounting/1_overview.md
       - Accounting: 5_accounting/2_accounting.md
