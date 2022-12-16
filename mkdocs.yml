@@ -15,9 +15,9 @@ nav:
   - Overview: index.md
   - Master Data:
       - Contacts: 1_master_data/1_contact.md
-      - Products: 2_master_data/2_product.md
-      - Product Category: 2_master_data/3_product_cate.md
-      - Chart of Account: 2_master_data/4_coa.md
+      - Products: 1_master_data/2_product.md
+      - Product Category: 1_master_data/3_product_cate.md
+      - Chart of Account: 1_master_data/4_coa.md
   - Sales:
       - Overview: 2_sale/1_overview.md
       - Sales: 2_sale/2_sale.md
