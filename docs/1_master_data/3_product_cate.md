@@ -1,7 +1,9 @@
 # การจัดการข้อมูลหลักหมวดหมู่สินค้า (Product Categories)
 
 ผู้รับผิดชอบ สามารถจัดการข้อมูลหลักหมวดหมู่สินค้า (Product Categories) ได้ 2 ช่องทาง ตามสิทธิ์ของแต่ละผู้ใช้งาน
+
 **Menu:** Purchase > Configuration > Product Categories
+
 **Menu:** Invoicing > Configuration > Product Categories
 
 โดยมีขั้นตอนดังนี้
