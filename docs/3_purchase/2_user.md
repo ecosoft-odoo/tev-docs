@@ -1,6 +1,6 @@
 # กระบวนการขอซื้อขอจ้าง
 
-## การสร้างใบขอซื้อจ้าง (Purchase Request:PR)
+## การสร้างใบขอซื้อขอจ้าง (Purchase Request:PR)
 
 **Menu:** Purchase Requests > Purchase Requests > Purchase Requests
 
@@ -31,8 +31,9 @@
 6. สามารถแนบเอกสารประกอบการพิจารณาได้ที่ รูปคลิป ด้านล่างของเอกสาร
 ![](img/attachment.png)
 
-7. กดปุ่ม Request Validation เพื่อส่งเอนุมัติการจัดซื้อจัดจ้าง
+7. กดปุ่ม Request Validation เพื่อส่งอนุมัติการจัดซื้อจัดจ้าง
 ![](img/pr_6.png)
     
+---
 End.
 
