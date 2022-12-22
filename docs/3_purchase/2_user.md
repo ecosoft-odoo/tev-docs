@@ -2,32 +2,37 @@
 
 ## การสร้างใบขอซื้อจ้าง (Purchase Request:PR)
 
-**Menu ::** Purchase Requests > Purchase Requests > Purchase Requests
+**Menu:** Purchase Requests > Purchase Requests > Purchase Requests
 
-![](pix/1_pr_new.png)
+1. กดปุ่ม Create เพื่อสร้าง Purchase Request 
+![](img/pr_1.png)
 
-1. กดปุ่ม Create เพื่อสร้าง Purchase Request ที่ Header เลือก/กรอกข้อมูลดังนี้
-      1.  Requested By: ผู้ขอ (ระบบ default ตาม user login)
-      2.  Creation Date: วันที่สร้างเอกสาร
-      3.  Source Document: เอกสารต้นทางของการขอซื้อขอจ้าง
-      4.  Description: คำอิบายการขอซื้อขอจ้าง
-2. แท็บ Product เพิ่มรายการที่ต้องการขอซื้อขอจ้าง โดยมีข้อมูลดังนี้
-      1.  Product: สินค้า/บริการที่ต้องการขอซื้อจ้าง
-      2.  Description: รายละเอียดเพิ่มเติมการขอซื้อจ้าง
-      3.  Quantity: จำนวนที่ต้องการ
-      4.  Requested Date: วันที่ต้องการ
-      5.  Estimated Cost: จำนวนเงิน
-    หลังจากเพิ่มรายการที่ต้องการขอซื้อขอจ้างครบแล้ว กดปุ่ม Save เพื่อบันทึกข้อมูล
+2. กรอกข้อมูลการข้อซื้อที่ Header ดังนี้
+![](img/pr_2.png)
+    * Requested By: ผู้ขอ (ระบบแสดงค่าเริ่มต้นตามชื่อ user ที่ login)
+    * Creation Date: วันที่สร้างเอกสาร
+    * Source Document: เอกสารต้นทางของการขอซื้อขอจ้าง
+    * Description: คำอธิบายการขอซื้อขอจ้าง
 
-    ![](pix/1_pr_product_line.png)
+3. ที่แท็บ Product กด Add a Line เพื่อเพิ่มรายการที่ต้องการขอซื้อขอจ้าง
+![](img/pr_3.png)
 
-3. หากมีข้อมูลแนบเพื่อการพิจารณาสามารถเพิ่มได้ที่ รูปคลิป ด้านล่างของเอกสาร
+4. ระบบแสดงหน้าต่างให้กรอกข้อมูลจัดซื้อจัดจ้าง ดังนี้
+![](img/pr_4.png)
+    * Product: สินค้า/บริการที่ต้องการขอซื้อขอจ้าง
+    * Description: รายละเอียดเพิ่มเติมการขอซื้อจ้าง
+    * Quantity: จำนวนที่ต้องการ
+    * Requested Date: วันที่ทำรายการ (ระบบ Default วันที่ปัจจุบันมาให้)
+    * Estimated Cost: ยอดซื้อโดยประมาณ
 
-    ![](pix/1_pr_more_info.png)
+5. กดปุ่ม Save เพื่อบันทึกข้อมูลและตรวจทาน หากต้องการแก้ไขข้อมูลสามารถกด Edit เพื่อแก้ไข
+![](img/pr_5.png)
 
-4. กดปุ่ม Request Validation เพื่อส่งเอกสาร Purchase Request นี้ไปยังผู้อนุมัติเพื่ออนุมัติการจัดซื้อจัดจ้าง
+6. สามารถแนบเอกสารประกอบการพิจารณาได้ที่ รูปคลิป ด้านล่างของเอกสาร
+![](img/attachment.png)
 
-    ![](pix/1_pr_header.png)
+7. กดปุ่ม Request Validation เพื่อส่งเอนุมัติการจัดซื้อจัดจ้าง
+![](img/pr_6.png)
     
 End.
 

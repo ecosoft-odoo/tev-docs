@@ -12,23 +12,23 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
 nav:
-  - Overview: index.md
+  - Overview: 0_overview/overview.md
   - Master Data:
       - Chart of Accounts: 1_master_data/1_coa.md
       - Contacts: 1_master_data/2_contact.md
       - Product Categories: 1_master_data/3_product_cate.md
       - Products: 1_master_data/4_product.md
+      - Currencies: 1_master_data/5_currencies.md
   - Sales:
       - Overview: 2_sale/1_overview.md
       - Sales: 2_sale/2_sale.md
   - Purchases:
       - Overview: 3_purchase/1_overview.md
       - User: 3_purchase/2_user.md
-      - Purchases: 3_purchase/3_purchases.md
+      - Purchases: 3_purchase/3_purchase.md
   - Inventory:
       - Overview: 4_inventory/1_overview.md
-      - Stock In: 4_inventory/2_stock-in.md
-      - Stock Out: 4_inventory/3_stock-out.md     
+      - Stock: 4_inventory/2_stock.md    
   - Accounting:
       - Overview: 5_accounting/1_overview.md
       - Accounting: 5_accounting/2_accounting.md
