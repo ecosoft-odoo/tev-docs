@@ -12,7 +12,9 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
 nav:
-  - Overview: 0_overview/overview.md
+  - Overview: 
+      - TEV Overview: 0_overview/overview.md
+      - Basic Features: 0_overview/features.md
   - Master Data:
       - Chart of Accounts: 1_master_data/1_coa.md
       - Contacts: 1_master_data/2_contact.md

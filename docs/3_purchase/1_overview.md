@@ -1,4 +1,4 @@
-# Purchase Process
+# ภาพรวมการจัดซื้อ
 
 ![](img/flow_purchase.png)
 
