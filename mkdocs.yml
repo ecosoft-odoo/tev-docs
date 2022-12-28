@@ -26,8 +26,8 @@ nav:
       - Sales Process: 2_sale/2_sale.md
   - Purchases:
       - Overview: 3_purchase/1_overview.md
-      - User: 3_purchase/2_user.md
-      - Purchases: 3_purchase/3_purchase.md
+      - Purchase Request: 3_purchase/2_user.md
+      - Purchase Order: 3_purchase/3_purchase.md
   - Inventory:
       - Overview: 4_inventory/1_overview.md
       - Stock: 4_inventory/2_stock.md    
