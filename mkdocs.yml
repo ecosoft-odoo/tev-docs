@@ -23,7 +23,7 @@ nav:
       - Currencies: 1_master_data/5_currencies.md
   - Sales:
       - Overview: 2_sale/1_overview.md
-      - Sales: 2_sale/2_sale.md
+      - Sales Process: 2_sale/2_sale.md
   - Purchases:
       - Overview: 3_purchase/1_overview.md
       - User: 3_purchase/2_user.md
