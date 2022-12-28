@@ -30,7 +30,7 @@ nav:
       - Purchase Order: 3_purchase/3_purchase.md
   - Inventory:
       - Overview: 4_inventory/1_overview.md
-      - Stock: 4_inventory/2_stock.md    
+      - Store: 4_inventory/2_stock.md    
   - Accounting:
       - Overview: 5_accounting/1_overview.md
       - Accounting: 5_accounting/2_accounting.md
