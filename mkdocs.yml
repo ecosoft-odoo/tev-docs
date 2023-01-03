@@ -37,6 +37,8 @@ nav:
   - Approval:
       - Overview: 6_approval/1_overview.md
       - Approver: 6_approval/2_approver.md
+  - Other: 
+      - Change Password: 7_other/1_change_password.md
 
 markdown_extensions:
   - admonition
