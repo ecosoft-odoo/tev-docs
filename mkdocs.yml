@@ -23,6 +23,7 @@ nav:
       - Product Categories: 1_master_data/5_product_cate.md
       - Products: 1_master_data/6_product.md
       - Currencies: 1_master_data/7_currencies.md
+      - Users: 1_master_data/8_user.md
   - Sales:
       - Overview: 2_sale/1_overview.md
       - Sales Process: 2_sale/2_sale.md
