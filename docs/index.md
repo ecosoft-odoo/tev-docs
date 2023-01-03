@@ -1,7 +1,7 @@
 # ภาพรวม
 
 ## กระบวนการทำงาน
-![](img/tev_overview.png)
+![](0_overview/img/tev_overview.png)
 
 กระบวนการทำงานแบ่งตามฝ่ายต่างๆ ดังนี้
 
