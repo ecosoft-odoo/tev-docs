@@ -37,6 +37,7 @@ nav:
   - Accounting:
       - Overview: 5_accounting/1_overview.md
       - Accounting: 5_accounting/2_accounting.md
+      - Reporting: 5_accounting/3_acc_report.md
   - Approval:
       - Overview: 6_approval/1_overview.md
       - Approver: 6_approval/2_approver.md
