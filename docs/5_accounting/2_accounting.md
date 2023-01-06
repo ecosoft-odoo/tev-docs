@@ -224,7 +224,7 @@
 
 ---
 
-### การออกใบหัก ณ ที่ จ่าย
+### การออกใบหัก ณ ที่ จ่าย หลังจากทำ Payments
 
 หากมีภาษีหัก ณ ที่จ่าย หลังจากทำ Register Payment แล้ว จะมีแถบสีเหลืองแสดง สามารถออกใบหัก ณ ที่จายได้ โดยมีขั้นตอนดังนี้
 
@@ -239,12 +239,12 @@
 3. ที่ Withholding Tax Moves 
 ![](img/acc_wht_1-1.png)
     * Type of Income: เลือกประเภทของภาษีหัก ณ ที่จ่าย 
-    * Income Description: กรอกรายละเอียด
+    * Income Description: ระบบแสดงคำอธิบายเบื้องต้นมาให้ สามารถแก้ไขคำอธิบายได้
     
 4. กดปุ่ม Save เพื่อบันทึกและตรวจสอบข้อมูล หากต้องการแก้ไขให้กดปุ่ม Edit
 ![](img/acc_wht_1-1-1.png)
 
-5. กด Create witholding tax cert. ที่แถบสีเหลืองด้านบนของเอกสาร เพื่อสร้างใบหัก ณ ที่จ่ายสถานะ Drat 
+5. กด Create witholding tax cert. ที่แถบสีเหลืองด้านบนของเอกสาร เพื่อสร้างใบหัก ณ ที่จ่ายสถานะ Draft 
 ![](img/acc_wht_2.png)
 
 6. กด Show witholding tax certs เพื่อดูรายการใบหัก ณ ที่จ่าย
@@ -254,7 +254,7 @@
 7. กดปุ่ม Edit
 ![](img/acc_wht_4.png)
 
-8. กรอกข้อมูล Income Tax Form และกดปุ่ม Save เพื่อบันทึกข้อมูล
+8. กรอกข้อมูล Income Tax Form และกดปุ่ม Save เพื่อบันทึกข้อมูล หากต้องการแก้ไขให้กดปุ่ม Edit
 ![](img/acc_wht_5.png)
 
 9. หากข้อมูลถูกต้องเรียบร้อยแล้ว ให้กดปุ่ม Done สถานะเอกสารจะเปลี่ยนเป็น Done 
@@ -285,6 +285,75 @@
     ในหน้าเอกสาร จะคาดแถบสีเขียวว่า Approved
     ![](img/acc_pay_10.png)
     บัญชีการเงินก็จะไปทำการชำระเงินด้วยการโอน/เช็ค/เงินสดเป็นลำดับถัดไป
+
+---
+
+### การออกใบหัก ณ ที่ จ่าย ที่เมนู Journal Entries
+
+**Menu:** Invoicing > Accouting > Journal Entries
+
+1. กดปุ่ม Create เพื่อสร้างเอกสาร JV
+![](img/acc_adj_je_1.png)
+
+2. กรอกข้อมูลส่วน Header
+![](img/acc_wht_jv_1.png)
+
+    * Reference: กรอกข้อมูลอ้างอิง
+    * Accounting: วันที่ลงบัญชี
+    * Journal: ประเภทสมุดรายวัน
+
+3. ที่แท็บ Journal Items กด Add a Line และกรอกข้อมูล
+![](img/acc_wht_jv_2.png)
+
+    * Account: เลือกบัญชีที่ต้องการ
+    * Partner: ชื่อคู่ค้า
+    * Label: คำอธิบายรายการ (ถ้ามี)
+    * Amount in Currency: แสดงจำนวนเงิน เมื่อกรอกจำนวนเงิน Debit/Credit
+    * Debit: กรอกยอดเงินฝั่ง Debit
+    * Credit: กรอกยอดเงินฝั่ง Crebit
+
+4. กดปุ่ม Save เพื่อบันทึกข้อมูลและตรวจทาน หากต้องการแก้ไขให้กดปุ่ม Edit
+![](img/acc_adj_je_3.png)
+
+5. กดปุ่ม Post เพื่อยืนยัน สถานะเอกสารจะปลี่ยนเป็น Posted และระบบจะแสดงแถบสีเหลือง ให้สร้างใบหัก ณ ที่จ่าย
+![](img/acc_adj_je_4.png)
+
+6. กดปุ่ม Edit เพื่อกรอกประเภทภาษีหัก ณ ที่จ่าย
+![](img/acc_wht_jv_2-1.png)
+
+7. ที่แท็บ Withholding Moves กรอกข้อมูล
+![](img/acc_wht_jv_4.png)
+    * Type of Income: เลือกประเภทของภาษีหัก ณ ที่จ่าย 
+    * Income Description: ระบบแสดงคำอธิบายเบื้องต้นมาให้ สามารถแก้ไขคำอธิบายได้
+    * Income: กรอกจำนวนเงินค่าบริการก่อนหักภาษีหัก ณ ที่จ่าย 
+
+8. กดปุ่ม Save เพื่อบันทึกข้อมูลและตรวจทานอีกครั้ง หากต้องการแก้ไขให้กดปุ่ม Edit
+![](img/acc_wht_jv_5.png)
+
+9. กด Create witholding tax cert. ที่แถบสีเหลืองด้านบนของเอกสาร เพื่อสร้างใบหัก ณ ที่จ่ายสถานะ Draft 
+![](img/acc_wht_jv_3.png)
+
+10. กด Show witholding tax certs เพื่อดูรายการใบหัก ณ ที่จ่าย
+![](img/acc_wht_jv_6.png)
+![](img/acc_wht_jv_7.png)
+
+11. กดปุ่ม Edit
+![](img/acc_wht_jv_8.png)
+
+12. กรอกข้อมูล Income Tax Form และกดปุ่ม Save เพื่อบันทึกข้อมูล สามารถกดปุ่ม Print > WHT Certificates (pdf) เพื่อเรียกดูฟอร์มและตรวจสอบความถูกต้องได้ หากต้องการแก้ไขให้กดปุ่ม Edit
+![](img/acc_wht_jv_9.png)
+
+13. หากข้อมูลถูกต้องเรียบร้อยแล้ว ให้กดปุ่ม Done สถานะเอกสารจะเปลี่ยนเป็น Done 
+![](img/acc_wht_jv_10.png)
+
+14. กดปุ่ม Print > WHT Certificates (pdf) เพื่อดาวน์โหลดฟอร์มในรูปแบบ pdf
+![](img/acc_wht_jv_11.png)
+
+15. กลับมาที่เอกสาร Journal Entries (JV) ใบเดิม โดยกด Path ของเอกสารที่ด้านบน
+![](img/acc_wht_jv_12.png)
+
+16. ที่เอกสาร Journal Entries (JV) จะมี Smart Button WHT Certs เกิดขึ้น
+![](img/acc_wht_jv_13.png)
 
 ---
 
@@ -864,7 +933,7 @@
         * Account: เลือกบัญชีที่ต้องการปรับปรุง
         * Partner: ชื่อคู่ค้า (ถ้ามี)
         * Label: คำอธิบายรายการ (ถ้ามี)
-        * Currency: ระบบแสดงค่า THB
+        * Amount in Currency: แสดงจำนวนเงิน เมื่อกรอกจำนวนเงิน Debit/Credit
         * Debit: กรอกยอดเงินฝั่ง Debit
         * Credit: กรอกยอดเงินฝั่ง Crebit
 
