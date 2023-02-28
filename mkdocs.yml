@@ -34,6 +34,7 @@ nav:
   - Inventory:
       - Overview: 4_inventory/1_overview.md
       - Store: 4_inventory/2_stock.md    
+      - Reporting: 4_inventory/3_stock report.md
   - Accounting:
       - Overview: 5_accounting/1_overview.md
       - Accounting: 5_accounting/2_accounting.md
